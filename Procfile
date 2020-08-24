@@ -1,1 +1,1 @@
-web: gunicorn app:survey
+web: gunicorn wsgi:app
