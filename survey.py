@@ -461,5 +461,5 @@ def getTextAnswers(tid,ref,question):
 @app.route('/')
 def index():
     return "<h1>Welcome to our app!</h1>"
-if __name__=='__main__':
-    app.run(threaded=True,port=5000)
+# if __name__=='__main__':
+#     app.run(threaded=True,port=5000)
